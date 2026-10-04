@@ -138,7 +138,7 @@ print(kv.most_similar("小猫", topn=10))
 ```bibtex
 @misc{pron2026,
   author = {NyaaaanFox},
-  title  = {pron: 无梯度下降的中文词嵌入},
+  title  = {Charon: 无梯度下降的中文词嵌入},
   year   = {2026},
   url    = {https://github.com/NyaaaanFox/Charon}
 }
