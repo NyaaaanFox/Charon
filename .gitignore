@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 训练产物（embedding.* / params.txt 都能由 tran.py 重新生成，不要入库）
+embedding.npz
+embedding.json
+embedding.partial
+embedding.partial.npz
+embedding.partial.json
+params.txt
+
+# 导出产物（由 export_vec.py 从 embedding.* 生成，不入库）
+*.vec
+
+# 语料：tran.txt 往往是爬来的/有版权的文本，默认不入库。
+# 确认自己有权公开后，删掉下面这行即可。
+tran.txt
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
