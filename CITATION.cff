@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "pron: 无梯度下降的中文词嵌入"
+abstract: >-
+  纯 NumPy,jieba 实现的中文词向量实验项目：不依赖神经网络、反向传播与损失函数，
+  词向量通过窗口上下文的加权平均与负采样逐次更新得到，训练与推理均为 O(n)。
+  包含 ka（窗口上下文嵌入）与 kb（叠加上文注意力累加的嵌入）两张表。
+authors:
+  - name: "NyaaaanFox"
+    # 如需更规范的署名，可改成：
+    # - given-names: "San"
+    #   family-names: "Zhang"
+license: MIT
+repository-code: "https://github.com/NyaaaanFox/Charon"
+url: "https://github.com/NyaaaanFox/Charon"
+keywords:
+  - word embedding
+  - chinese nlp
+  - negative sampling
+  - numpy
+date-released: "2026-10-04"
