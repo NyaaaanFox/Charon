@@ -15,8 +15,8 @@ token 统一是 `dim+1` 维，最后一维是训练中出现频次，不参与�
 
  **[Releases](https://github.com/NyaaaanFox/Charon/releases)**
 
-下载 `Charon-windows-x64.zip`，解压到一个空文件夹，把你的语料 `tran.txt` 放进去，
-**双击 `Charon.exe`** 即可，不需要 Python、不需要装任何东西：
+下载 `Charon.v.1.0.0.zip`，解压到一个空文件夹，把你的语料 `tran.txt` 放进去，
+**双击 `pron.exe`** 即可，不需要 Python、不需要装任何东西：
 
 | 菜单 | 作用 |
 |---|---|
