@@ -9,6 +9,25 @@
 
 token 统一是 `dim+1` 维，最后一维是训练中出现频次，不参与语义计算。
 
+## 免 Python 运行（Windows exe）
+
+不想装 Python？直接下载编译好的 Windows 可执行程序：
+
+ **[Releases](https://github.com/NyaaaanFox/Charon/releases)**
+
+下载 `Charon-windows-x64.zip`，解压到一个空文件夹，把你的语料 `tran.txt` 放进去，
+**双击 `Charon.exe`** 即可，不需要 Python、不需要装任何东西：
+
+| 菜单 | 作用 |
+|---|---|
+| `1` 训练模型 | 读同目录 `tran.txt` → `embedding.npz` / `embedding.json` / `params.txt` |
+| `2` 推理查询 | 最近邻 / 词相似度 / 文本向量 / 续写 / 生成 / 词表浏览 |
+| `3` 导出嵌入表 | 输出 `ka.vec` / `kb.vec`（gensim、fastText、Annoy 可直接读） |
+| `4` 模型信息 | 超参与语料统计 |
+
+> exe 约 42 MB，因为里面塞了 Python 解释器、NumPy 和 jieba 的词典。
+> 开源代码仍是下面这套 `.py`，两者算法完全一致，只是运行方式不同。
+
 ## 快速开始
 
 先装依赖（只需一次）：
