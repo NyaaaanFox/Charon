@@ -8,9 +8,6 @@ abstract: >-
   包含 ka（窗口上下文嵌入）与 kb（叠加上文注意力累加的嵌入）两张表。
 authors:
   - name: "NyaaaanFox"
-    # 如需更规范的署名，可改成：
-    # - given-names: "San"
-    #   family-names: "Zhang"
 license: MIT
 repository-code: "https://github.com/NyaaaanFox/Charon"
 url: "https://github.com/NyaaaanFox/Charon"
